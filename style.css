@@ -34,7 +34,7 @@ a:visited {
 
 /* SIDEBAR */
 .sidebar {
-    background-color: blue;
+    background-color: #6ee7b7;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: inline-grid;
@@ -42,25 +42,45 @@ a:visited {
     gap: 50px;
 }
 
-.sidebar .top-board {
-    display: grid;
-    /* grid-template-rows: 50px; */
-    grid-template-rows: 50px;
-}
-
+.sidebar .top-board,
 .sidebar .bottom-board {
     display: grid;
+    gap: 15px;
 }
 
-.top-board a {
+.sidebar .top-board {
+    grid-template-rows: 100px;
+}
+
+.top-board a,
+.bottom-board a {
     display: grid;
     grid-template-columns: 50px auto;
+    gap: 20px;
 }
 
+.sidebar-icon {
+    justify-self: end;
+}
+
+.sidebar-content img,
+.sidebar-content p {
+    align-self: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.logo p {
+    font-size: 1.8rem;
+}
+
+/* HEADER */
 .header {
-    background-color: red;
+    background-color: white;
 }
 
 .main {
-    background-color: whitesmoke;
+    background-color: #d1fae5;
 }
