@@ -170,3 +170,32 @@ a:visited {
 .main {
     background-color: #d1fae5;
 }
+
+.main-content-container {
+    border: 1px solid black;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projects-container {
+
+}
+
+.accessory-container {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+/* Calendar support */
+.accessory-container .calendar {
+    background-color: white;
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    justify-self: start;
+
+    
+}
