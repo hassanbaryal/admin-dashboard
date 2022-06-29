@@ -196,6 +196,15 @@ a:visited {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
     justify-self: start;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2fr repeat(6, 1fr);
+    justify-items: center;
+    align-items: center;
+}
 
+.calendar .month {
+    font-size: 1.4rem;
     
+    grid-column: 1 / 8;
 }
