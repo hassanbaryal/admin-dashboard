@@ -203,6 +203,26 @@ a:visited {
     display: grid;
     grid-template-columns: 1.5fr 5fr;
     grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+}
+
+.trending-container img {
+    justify-self: center;
+
+    height: 50px;
+    border-radius: 30px;
+}
+
+.trending-container p {
+    color: #64748b;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.trending-container p::first-line {
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* Calendar support */
