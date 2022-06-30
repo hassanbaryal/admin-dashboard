@@ -225,6 +225,9 @@ a:visited {
 
 .current-date {
     background-color: #6ee7b7;
-
     border-radius: 4px;
+}
+
+.calendar span:nth-child(7n+8) {
+    color: red;
 }
