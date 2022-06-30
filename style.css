@@ -184,7 +184,25 @@ a:visited {
 
 .accessory-container {
     display: grid;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 50px 0.75fr 50px 1fr;
+
+    /* align-items: center; */
+}
+
+.accessory-container h2 {
+    align-self: center;
+}
+
+.accessory-container .trending-container {
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: repeat(4, 1fr);
 }
 
 /* Calendar support */
