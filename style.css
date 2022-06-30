@@ -205,6 +205,26 @@ a:visited {
 
 .calendar .month {
     font-size: 1.4rem;
-    
+    font-weight: 500;
     grid-column: 1 / 8;
+}
+
+.calendar .week-day {
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}
+
+.calendar .number-day {
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-date {
+    background-color: #6ee7b7;
+
+    border-radius: 4px;
 }
